@@ -1,0 +1,21 @@
+{
+  "validUsers": [
+    { "username": "standard_user", "password": "secret_sauce" },
+    { "username": "problem_user", "password": "secret_sauce" },
+    { "username": "performance_glitch_user", "password": "secret_sauce" },
+    { "username": "visual_user", "password": "secret_sauce" }
+  ],
+  "invalidUser": {
+    "username": "locked_out_user", "password": "wrong_password"
+  },
+  "noPasswordUser": {
+    "username": "standard_user", "password": ""
+  },
+  "expected": {
+    "inventoryUrlPart": "/inventory.html",
+    "invalidLoginError": "Username and password do not match",
+    "missingPasswordError": "Password is required",
+    "pageTitle": "Swag Labs",
+    "productCount": 6
+  }
+}
